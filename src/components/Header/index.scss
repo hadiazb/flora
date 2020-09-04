@@ -1,0 +1,12 @@
+@import '../../styles/variables.scss';
+
+header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  border: 1px solid black;
+}
+
+.container {
+  padding: 0 20px;
+}
