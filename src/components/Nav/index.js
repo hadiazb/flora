@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.scss';
 import Logo from '../../assets/logo.png';
+import { Link } from 'react-router-dom';
 
 
 const Nav = () => {
@@ -15,13 +16,13 @@ const Nav = () => {
               QUIENES SOMOS
             </a>
           </li>
-          <li>
-            <a className='anchor strong nav_ul-blue' href="#">
+          <li className='strong'>
+            <a className='anchor  nav_ul-blue' href="#">
               VARIEDADES
             </a>
           </li>
-          <li>
-            <a className='anchor strong nav_ul-green' href="#">
+          <li className='strong'>
+            <a className='anchor  nav_ul-green' href="#">
               INSUMOS
             </a>
           </li>
